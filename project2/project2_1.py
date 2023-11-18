@@ -1,11 +1,11 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from selenium import webdriver # 導入 Selenium 的 webdriver，用於控制瀏覽器。
+from selenium.webdriver.common.by import By # 導入用於定位頁面元素的方法。
+from selenium.webdriver.common.keys import Keys #  導入用於模擬鍵盤按鍵的功能。
 import time
 import requests
 
 driver = webdriver.Chrome()
-url = 'http://cc.ee.ntu.edu.tw/~farn/courses/ST/2023.Fall/'
+url = 'http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/'
 
 # 訪問網頁
 driver.get(url)  # 替換成您要測試的網站URL
