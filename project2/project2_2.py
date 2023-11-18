@@ -48,16 +48,16 @@ for width, height in screen_sizes:
             elements = driver.find_elements(By.TAG_NAME, checklist[i])
 
             for j in range(len(elements)):
-                if elements[j].is_displayed() == True:
-                    count += 1
+                try:
+                    if elements[j].is_displayed() == True:
+                        count += 1
 
-                    print('<'+checklist[i]+'>'+' '+str(j+1))
-                    file.write('<'+checklist[i]+'>'+' '+str(j+1)+"\n")
-                    text = elements[j].text
-                    print(text)
-                    file.write(text+"\n")
+                        print('<'+checklist[i]+'>'+' '+str(j+1))
+                        file.write('<'+checklist[i]+'>'+' '+str(j+1)+"\n")
+                        text = elements[j].text
+                        print(text)
+                        file.write(text+"\n")
 
-                    try:
                         href = elements[j].get_attribute("href")
                         print(href)
                         file.write(href+"\n")
@@ -75,10 +75,10 @@ for width, height in screen_sizes:
                         if 'downloaded' not in text:
                             driver.back()
     
-                    except:
-                        print("unchecked")
-                        file.write("unchecked\n")
-                        unchecked+=1
+                except:
+                    print("unchecked")
+                    file.write("unchecked\n")
+                    unchecked+=1
 
         # 寫入文本内容
         print("The number of <"+str(checklist[i])+"> : "+str(count))
