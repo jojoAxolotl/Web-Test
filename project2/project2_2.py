@@ -5,7 +5,7 @@ import time
 import requests
 
 driver = webdriver.Chrome()
-url = 'http://cc.ee.ntu.edu.tw/~farn/courses/ST/2023.Fall/'
+url = 'http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/'
 
 # 訪問網頁
 driver.get(url)  # 替換成您要測試的網站URL
