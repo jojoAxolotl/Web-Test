@@ -1,0 +1,103 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import time
+import requests
+
+driver = webdriver.Chrome()
+url = 'http://cc.ee.ntu.edu.tw/~farn/courses/ST/2023.Fall/'
+
+# 訪問網頁
+driver.get(url)  # 替換成您要測試的網站URL
+
+# 定義不同螢幕尺寸的測試
+screen_sizes = [(1920, 1080)]  # 可以根據需要添加其他尺寸 (1366, 768), (768, 1024)
+
+list = [] 
+
+for width, height in screen_sizes:
+    driver.set_window_size(width, height)
+    current_size = f'{width}x{height}'
+    
+    time.sleep(1)
+
+    # checklist = ['a','abbr','acronym','address','area','article','aside','audio','b','base','bdi','bdo'\
+    # ,'big','blockquote','body','br','button','canvas','caption','center','cite','code','col','colgroup'\
+    # ,'data','datalist','dd','del','details','dfn','dialog','dir','div','dl','dt','em','embed','fieldset'\
+    # ,'figcaption','figure','font','footer','form','frame','frameset','h1','h2','h3','h4','h5','h6','head'\
+    # ,'header','hgroup','hr','html','i','iframe','image','img','input','ins','kbd','label','legend','li'\
+    # ,'link','main','map','mark','marquee','menu','menuitem','meta','meter','nav','nobr','noembed','noframes'\
+    # ,'noscript','object','ol','optgroup','option','output','p','param','picture','plaintext','portal','pre'\
+    # ,'progress','q','rb','rp','rt','rtc','ruby','s','samp','script','search','section','select','slot'\
+    # ,'small','source','span','strike','strong','style','sub','summary','sup','table','tbody','td','template'\
+    # ,'textarea','tfoot','th','thead','time','title','tr','track','tt','u','ul','var','video','wbr','xmp']
+    
+    checklist = ['a']
+    count = 0
+    checked = 0
+    error = 0
+    unchecked = 0
+
+    # 打開文件，使用 'w' 表示寫入模式
+    with open('result.txt', 'w') as file:
+
+        for i in range(len(checklist)):
+            # print(checklist[i])
+
+            # 例如，檢查標題元素是否可見
+            elements = driver.find_elements(By.TAG_NAME, checklist[i])
+
+            for j in range(len(elements)):
+                if elements[j].is_displayed() == True:
+                    count += 1
+
+                    print('<'+checklist[i]+'>'+' '+str(j+1))
+                    file.write('<'+checklist[i]+'>'+' '+str(j+1)+"\n")
+                    text = elements[j].text
+                    print(text)
+                    file.write(text+"\n")
+
+                    try:
+                        href = elements[j].get_attribute("href")
+                        print(href)
+                        file.write(href+"\n")
+                        response = requests.get(href)
+                        elements[j].click()
+                        time.sleep(1)
+                        print(response)
+
+                        if response.status_code == 404:
+                            error += 1
+                            file.write("404\n")
+                            driver.save_screenshot("screenshot_"+str(error)+".png")  # 將截圖保存為文件 
+                        checked += 1
+
+                        if 'downloaded' not in text:
+                            driver.back()
+    
+                    except:
+                        print("unchecked")
+                        file.write("unchecked\n")
+                        unchecked+=1
+
+        # 寫入文本内容
+        print("The number of <"+str(checklist[i])+"> : "+str(count))
+        file.write("The number of <"+str(checklist[i])+"> : "+str(count)+"\n")
+        print("The number of <"+str(checklist[i])+"> (checked) "+str(checked))
+        file.write("The number of <"+str(checklist[i])+"> (checked) "+str(checked)+"\n")
+        print("The number of error in <"+str(checklist[i])+"> : "+str(error))
+        file.write("The number of error in <"+str(checklist[i])+"> : "+str(error)+"\n")
+        print("The number of <"+str(checklist[i])+"> (unchecked) : "+str(unchecked))
+        file.write("The number of <"+str(checklist[i])+"> (unchecked) : "+str(unchecked)+"\n")
+
+    response = requests.get(url)
+    html_content = response.text
+
+        # Specify the file path and open it in write mode
+    file_path = "test_page.html"
+    with open(file_path, 'w', encoding='utf-8') as file: #
+        file.write(html_content)
+        print(f"HTML content saved to {file_path}")
+
+# 關閉瀏覽器
+driver.quit()
