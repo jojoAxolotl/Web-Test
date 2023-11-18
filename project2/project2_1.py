@@ -36,7 +36,7 @@ for width, height in screen_sizes:
     count = 0
 
     # 打開文件，使用 'w' 表示寫入模式
-    with open('result.txt', 'w') as file:
+    with open('result_1.txt', 'w') as file:
 
         for i in range(len(checklist)):
             # print(checklist[i])
@@ -68,7 +68,7 @@ for width, height in screen_sizes:
     html_content = response.text
 
         # Specify the file path and open it in write mode
-    file_path = "test_page.html"
+    file_path = "test_page_1.html"
     with open(file_path, 'w', encoding='utf-8') as file: #
         file.write(html_content)
         print(f"HTML content saved to {file_path}")
