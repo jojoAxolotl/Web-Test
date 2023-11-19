@@ -1,0 +1,291 @@
+<a> 1
+mailto:farn@cc.ee.ntu.edu.tw
+RequestExceptionL
+<a> 2
+http://cc.ee.ntu.edu.tw/~farn
+200
+<a> 3
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210616.pdf
+200
+<a> 4
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/#line.finalReport
+200
+<a> 5
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210609.pdf
+200
+<a> 6
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/MC.pdf
+200
+<a> 7
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210526.pdf
+200
+<a> 8
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210519.pdf
+200
+<a> 9
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210505.pdf
+200
+<a> 10
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210428.pdf
+200
+<a> 11
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210421.pdf
+200
+<a> 12
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210414.pdf
+200
+<a> 13
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210407.pdf
+200
+<a> 14
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210331.pdf
+200
+<a> 15
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210324.pdf
+200
+<a> 16
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210317.pdf
+200
+<a> 17
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210310.pdf
+200
+<a> 18
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/quiz210303.pdf
+200
+<a> 19
+http://cc.ee.ntu.edu.tw/~farn/courses/Compiler/2021.spring/Syllabus.pdf
+200
+<a> 20
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/slides/Ch1-Introduction.pdf
+200
+<a> 21
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/slides/Ch2-GraphCoverage.pdf
+200
+<a> 22
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/slides/Ch3-LogicCoverage.pdf
+200
+<a> 23
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/slides/Ch4-ISP.pdf
+200
+<a> 24
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/slides/Ch5-SyntaxCoverage.pdf
+200
+<a> 25
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/slides/Ch6-practical.pdf
+200
+<a> 26
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/slides/Ch7.pdf
+200
+<a> 27
+https://www.youtube.com/watch?v=jOn-OxaBaNg
+200
+<a> 28
+https://www.youtube.com/watch?v=heG7XHqG0ik
+200
+<a> 29
+https://www.youtube.com/watch?v=6M_zMhuM8ik
+200
+<a> 30
+https://www.youtube.com/watch?v=w-4OPb7Hpl4
+200
+<a> 31
+https://youtu.be/eawSV82FqqE
+200
+<a> 32
+https://youtu.be/BQqVem9rRAk
+200
+<a> 33
+https://youtu.be/VS-B5DYf4-U
+200
+<a> 34
+https://youtu.be/22g5hihrUIA
+200
+<a> 35
+https://youtu.be/YnsYhMIjO0E
+200
+<a> 36
+https://youtu.be/LwmDu6SYlRw
+200
+<a> 37
+https://youtu.be/CImNCdb9mbg
+200
+<a> 38
+https://youtu.be/Eerep_deXkk
+200
+<a> 39
+https://youtu.be/NLjhNpQRONM
+200
+<a> 40
+https://youtu.be/C2LCgKjaQqU
+200
+<a> 41
+https://youtu.be/gEApXjrT7PY
+200
+<a> 42
+https://youtu.be/N3UMHJgj4Gw
+200
+<a> 43
+https://youtu.be/mnEOcHcLhes
+200
+<a> 44
+https://youtu.be/SdR9SCtLj7g
+200
+<a> 45
+https://youtu.be/Q72Ytskrm8M
+200
+<a> 46
+https://youtu.be/BKEnwkgbBBo
+200
+<a> 47
+https://youtu.be/mqGDlWkkFz4
+200
+<a> 48
+https://youtu.be/J3HnydZj3q0
+200
+<a> 49
+https://youtu.be/n6I49nV32Gg
+200
+<a> 50
+https://youtu.be/n1YNtsNrXw8
+200
+<a> 51
+https://youtu.be/bPDxwKsWpB8
+200
+<a> 52
+https://youtu.be/-PQ_X_BKJ_s
+200
+<a> 53
+https://youtu.be/oREoQZlmWqI
+200
+<a> 54
+https://youtu.be/-lslElzTBYw
+200
+<a> 55
+https://youtu.be/N89usn1L4lE
+200
+<a> 56
+https://youtu.be/GzwkNB7Il20
+200
+<a> 57
+https://youtu.be/Bwgn7y33xSY
+200
+<a> 58
+https://youtu.be/3RdBsmRx8VE
+200
+<a> 59
+https://youtu.be/jGxsJuUFCfU
+200
+<a> 60
+https://youtu.be/8prfpXl7Q7E
+200
+<a> 61
+https://youtu.be/s61B79EVUrs
+200
+<a> 62
+https://youtu.be/zKK6tfq-duM
+200
+<a> 63
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2021.Spring/MC.pdf
+200
+<a> 64
+https://youtu.be/UZeCYfIdVC8
+200
+<a> 65
+https://youtu.be/ZehdMIRs988
+200
+<a> 66
+https://youtu.be/uYI3Oks-46U
+200
+<a> 67
+https://youtu.be/PvVqeMGO4Yw
+200
+<a> 68
+None
+Invalid URL
+<a> 69
+https://forms.gle/LX7hy2WQLnqtP9St9
+410
+<a> 70
+None
+Invalid URL
+<a> 71
+None
+Invalid URL
+<a> 72
+https://fktpm.ru/file/114-the-art-of-software-testing-3-edition.pdf
+200
+<a> 73
+https://docs.google.com/spreadsheets/d/18ZjeUygcxIxOs6Am5CmvEwFiXURN1x8EqGXiC0eS-tE/edit#gid=0
+410
+<a> 74
+None
+Invalid URL
+<a> 75
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/midtermPresentationTemplate-ST.pptx
+200
+<a> 76
+None
+Invalid URL
+<a> 77
+http://dblp.uni-trier.de/db/conf/icse/icse2020.html
+200
+<a> 78
+http://dblp2.uni-trier.de/db/conf/sigsoft/fse2019.html
+200
+<a> 79
+http://dblp.uni-trier.de/db/conf/kbse/ase2020.html
+200
+<a> 80
+http://dblp.uni-trier.de/db/conf/issta/issta2020.html
+200
+<a> 81
+http://dblp.uni-trier.de/db/conf/pldi/pldi2020.html
+200
+<a> 82
+https://hackmd.io/@xlYUTygoRkyuQQlwXuWDWQ/ByaSzDCNL
+404
+<a> 83
+https://hackmd.io/@xlYUTygoRkyuQQlwXuWDWQ/r1UU-rOL8
+404
+<a> 84
+https://hackmd.io/@xlYUTygoRkyuQQlwXuWDWQ/r1UU-rOL8
+404
+<a> 85
+https://hackmd.io/HPvzNcEsR1aj2oXjp494JA
+404
+<a> 86
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/projects/sikuli/sikuli.rar
+200
+<a> 87
+https://docs.google.com/forms/d/e/1FAIpQLSdLoPK2yWt2tkURr4jWDaE-zkXM4tjSB0XPTr2hi8m_8To2WA/viewform?usp=pp_url
+200
+<a> 88
+None
+Invalid URL
+<a> 89
+http://cs.gmu.edu/~offutt/softwaretest/
+RequestExceptionL
+<a> 90
+http://cs.gmu.edu/~offutt/softwaretest/
+RequestExceptionL
+<a> 91
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2015.fall/index.htm
+404
+<a> 92
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2014.fall/index.htm
+404
+<a> 93
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2013.fall/index.htm
+404
+<a> 94
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2013.spring/index.htm
+404
+<a> 95
+http://cc.ee.ntu.edu.tw/~farn/courses/ST/2018.spring/index.htm
+404
+<a> 96
+mailto:r08921105@ntu.edu.tw
+RequestExceptionL
+<a> 97
+mailto:r08921105@ntu.edu.tw
+RequestExceptionL
