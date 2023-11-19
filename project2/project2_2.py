@@ -50,10 +50,8 @@ for width, height in screen_sizes:
 
                     except requests.exceptions.RequestException:
                         print(f'<a> {count+1}\n{href}\nRequestException\n')
-                        file.write(f'<a> {count+1}\n{href}\nRequestExceptionL\n')
+                        file.write(f'<a> {count+1}\n{href}\nRequestException\n')
                         error += 1
-
-                    
 
                 except NoSuchWindowException:
                     print(f'<a> {count+1}\n{href}\nWindow closed unexpectedly\n')
@@ -62,8 +60,8 @@ for width, height in screen_sizes:
                     error += 1
                 
                 except StaleElementReferenceException:
-                    print(f'<a> {count+1}\n{href}\nStaleElementReferenceExceptio\n')
-                    file.write(f'<a> {count+1}\n{href}\nStaleElementReferenceExceptio\n')
+                    print(f'<a> {count+1}\n{href}\nStaleElementReferenceException\n')
+                    file.write(f'<a> {count+1}\n{href}\nStaleElementReferenceException\n')
                     error += 1
             
             else:
@@ -74,7 +72,7 @@ for width, height in screen_sizes:
             
             count += 1
 
-        print("The number of <a>: ", count)
+        print("The number of <a>: ", count+1)
         print("The number of error in <a>: ", error)
         print("The number of <a> (unchecked): ", unchecked)
 

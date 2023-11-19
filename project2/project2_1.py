@@ -39,8 +39,6 @@ for width, height in screen_sizes:
     with open('result_1.txt', 'w') as file:
 
         for i in range(len(checklist)):
-            # print(checklist[i])
-
             # 例如，檢查標題元素是否可見
             elements = driver.find_elements(By.TAG_NAME, checklist[i])
 
@@ -61,8 +59,8 @@ for width, height in screen_sizes:
                         file.write("No url\n")
 
         # 寫入文本内容
-        print("The number of <"+str(checklist[i])+"> : "+str(count))
-        file.write("The number of <"+str(checklist[i])+"> : "+str(count)+"\n")
+        print("The number of <"+str(checklist[i])+"> : "+str(count+1))
+        file.write("The number of <"+str(checklist[i])+"> : "+str(count+1)+"\n")
 
     response = requests.get(url)
     html_content = response.text
