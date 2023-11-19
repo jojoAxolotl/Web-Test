@@ -21,8 +21,6 @@ for width, height in screen_sizes:
     error = 0
     unchecked = 0
 
-    error_report = {}
-
     hrefs = []
     elements = driver.find_elements(By.TAG_NAME, 'a')
     for element in elements:
@@ -47,11 +45,14 @@ for width, height in screen_sizes:
                         if status_code == 404:
                             error += 1
                             driver.save_screenshot(f"screenshot_{error}.png")
+                        if status_code == 410:
+                            error += 1
+                            driver.save_screenshot(f"screenshot_{error}.png")
 
                     except requests.exceptions.RequestException:
                         print(f'<a> {count+1}\n{href}\nRequestException\n')
                         file.write(f'<a> {count+1}\n{href}\nRequestException\n')
-                        error += 1
+                        unchecked += 1
 
                 except NoSuchWindowException:
                     print(f'<a> {count+1}\n{href}\nWindow closed unexpectedly\n')
@@ -65,14 +66,13 @@ for width, height in screen_sizes:
                     error += 1
             
             else:
-                error_report[count] = 'invalid URL'
                 print(f'<a> {count+1}\n{href}\nInvalid URL\n')
                 file.write(f'<a> {count+1}\n{href}\nInvalid URL\n')
                 error += 1
             
             count += 1
 
-        print("The number of <a>: ", count+1)
+        print("The number of <a>: ", count)
         print("The number of error in <a>: ", error)
         print("The number of <a> (unchecked): ", unchecked)
 

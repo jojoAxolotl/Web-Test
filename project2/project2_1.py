@@ -59,8 +59,8 @@ for width, height in screen_sizes:
                         file.write("No url\n")
 
         # 寫入文本内容
-        print("The number of <"+str(checklist[i])+"> : "+str(count+1))
-        file.write("The number of <"+str(checklist[i])+"> : "+str(count+1)+"\n")
+        print("The number of <"+str(checklist[i])+"> : "+str(count))
+        file.write("The number of <"+str(checklist[i])+"> : "+str(count)+"\n")
 
     response = requests.get(url)
     html_content = response.text
